@@ -7,7 +7,7 @@ namespace NeuralNetwork {
     ///     Represents a simple <see cref="Neuron" /> that can be used as standalone,
     ///     in a <see cref="Layer" /> or in a <see cref="Network" />.
     /// </summary>
-    internal class Neuron {
+    public class Neuron {
         private static readonly Random Random = new Random();
         private readonly double _learningRate;
         private double _error;

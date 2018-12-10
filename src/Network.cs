@@ -1,11 +1,11 @@
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 
 namespace NeuralNetwork {
     /// <summary>
     ///     Represents a Feed Forward <see cref="Network" /> of <see cref="Neuron" />.
     /// </summary>
-    internal class Network {
+    public class Network {
         private static readonly IEnumerable<double> Bias = new List<double> {1};
         private readonly IEnumerable<Layer> _layers;
 

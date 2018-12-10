@@ -6,7 +6,7 @@ namespace NeuralNetwork {
     ///     Represents a <see cref="Layer" /> which manages a sequence of <see cref="Neuron" />.
     ///     It can be used standalone or in a <see cref="Network" />.
     /// </summary>
-    internal class Layer {
+    public class Layer {
         private readonly IEnumerable<Neuron> _neurons;
 
         /// <summary>
